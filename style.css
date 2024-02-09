@@ -14,20 +14,82 @@ footer{
     text-align: center;
     color: rgba(43, 69, 80, 0.833);
 }
-ul{
+h1, h2{
+    color: #05445E;
+}
+p{
+    color: #0e516e;
+}
+#footerStyle ul{
     list-style-type: none;
     margin-right: 50px;
 }
-a{
+
+#footerStyle a{
     text-decoration: none;
     
 }
-a:hover{
-    color: azure;
+#footerStyle a:hover{
+    color: #189AB4
 }
-a:active{
+#footerStyle a:active{
     color: dodgerblue;
 }
+
 #cite{
     font-size: 10px;
+}
+
+.pageTitle{
+   
+   
+    border-radius: 6px;
+    top: 0;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    
+    
+}
+
+#menu{
+    box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.55);
+    background-color: rgba(134, 191, 218, 0.95);
+    border-radius: 6px;
+    position: sticky;
+    top: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    padding-top: .1px;
+    padding-bottom: .1px;
+    
+
+   
+   
+    
+    
+}
+
+#menu ul{
+    list-style-type: none;
+
+    
+}
+
+#menu li{
+    display: inline;
+    margin-left: 3vh;
+margin-right: 3vh;
+}
+
+#menu a{
+    text-decoration: none;
+    color: #05445E
+    
+}
+#menu a:hover{
+    color: #189AB4
+}
+#menu a:active{
+    color: dodgerblue;
 }
